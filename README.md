@@ -58,6 +58,16 @@ This project was built as backend practice to strengthen:
 
 ---
 
+## 🔐 Security Flow
+
+1. User sends credentials to /auth/login
+2. Server validates credentials
+3. JWT token is generated
+4. Token must be sent in Authorization header as Bearer token
+5. Protected endpoints validate JWT before processing request
+
+---
+
 ## 👨‍💻 Author
 
 Daniel Galindo  
